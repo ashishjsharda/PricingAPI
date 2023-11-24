@@ -19,4 +19,5 @@ class ProductSerializer(serializers.ModelSerializer):
         model = Product
         fields = ['id', 'name', 'price', 'stock', 'image_url']
 
+#views.py
 
